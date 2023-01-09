@@ -344,6 +344,126 @@
             }
           }
         },
+        "primary": {
+          "value": "#ff7535ff",
+          "type": "color"
+        },
+        "tertiary": {
+          "hover": {
+            "foreground": {
+              "value": "#3645abff",
+              "type": "color"
+            }
+          },
+          "active": {
+            "foreground": {
+              "value": "#4963d4ff",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "foreground": {
+              "value": "#b2b4bdff",
+              "type": "color"
+            }
+          },
+          "foreground": {
+            "value": "#29327aff",
+            "type": "color"
+          },
+          "background": {
+            "value": "#ffffff00",
+            "type": "color"
+          }
+        },
+        "tab": {
+          "default": {
+            "foreground": {
+              "value": "#9194a1ff",
+              "type": "color"
+            }
+          },
+          "active": {
+            "foreground": {
+              "value": "#0e0e11ff",
+              "type": "color"
+            },
+            "border": {
+              "value": "#0e0e11ff",
+              "type": "color"
+            }
+          }
+        },
+        "trainer": {
+          "on-container": {
+            "hover": {
+              "background": {
+                "value": "#ecf5feff",
+                "type": "color"
+              },
+              "border": {
+                "value": "#d3d4d9ff",
+                "type": "color"
+              }
+            },
+            "active": {
+              "background": {
+                "value": "#d9eafdff",
+                "type": "color"
+              },
+              "border": {
+                "value": "#7495e7ff",
+                "type": "color"
+              }
+            },
+            "backgoround": {
+              "value": "#ffffffff",
+              "type": "color"
+            },
+            "foreground": {
+              "value": "#0e0e11ff",
+              "type": "color"
+            },
+            "border": {
+              "value": "#d3d4d9ff",
+              "type": "color"
+            }
+          },
+          "on-layer": {
+            "hover": {
+              "background": {
+                "value": "#ecf5feff",
+                "type": "color"
+              },
+              "border": {
+                "value": "#d3d4d9ff",
+                "type": "color"
+              }
+            },
+            "active": {
+              "background": {
+                "value": "#d9eafdff",
+                "type": "color"
+              },
+              "border": {
+                "value": "#7495e7ff",
+                "type": "color"
+              }
+            },
+            "background": {
+              "value": "#fafafaff",
+              "type": "color"
+            },
+            "foreground": {
+              "value": "#0e0e11ff",
+              "type": "color"
+            },
+            "border": {
+              "value": "#d3d4d9ff",
+              "type": "color"
+            }
+          }
+        },
         "textfield": {
           "outlined": {
             "hover": {
@@ -422,80 +542,6 @@
             }
           }
         },
-        "trainer": {
-          "on-container": {
-            "hover": {
-              "background": {
-                "value": "#ecf5feff",
-                "type": "color"
-              },
-              "border": {
-                "value": "#d3d4d9ff",
-                "type": "color"
-              }
-            },
-            "active": {
-              "background": {
-                "value": "#d9eafdff",
-                "type": "color"
-              },
-              "border": {
-                "value": "#7495e7ff",
-                "type": "color"
-              }
-            },
-            "backgoround": {
-              "value": "#ffffffff",
-              "type": "color"
-            },
-            "foreground": {
-              "value": "#0e0e11ff",
-              "type": "color"
-            },
-            "border": {
-              "value": "#d3d4d9ff",
-              "type": "color"
-            }
-          },
-          "on-layer": {
-            "hover": {
-              "background": {
-                "value": "#ecf5feff",
-                "type": "color"
-              },
-              "border": {
-                "value": "#d3d4d9ff",
-                "type": "color"
-              }
-            },
-            "active": {
-              "background": {
-                "value": "#d9eafdff",
-                "type": "color"
-              },
-              "border": {
-                "value": "#7495e7ff",
-                "type": "color"
-              }
-            },
-            "background": {
-              "value": "#fafafaff",
-              "type": "color"
-            },
-            "foreground": {
-              "value": "#0e0e11ff",
-              "type": "color"
-            },
-            "border": {
-              "value": "#d3d4d9ff",
-              "type": "color"
-            }
-          }
-        },
-        "primary": {
-          "value": "#ff7535ff",
-          "type": "color"
-        },
         "secondary": {
           "disabled": {
             "foreground": {
@@ -540,24 +586,6 @@
             "type": "color"
           }
         },
-        "tab": {
-          "active": {
-            "foreground": {
-              "value": "#0e0e11ff",
-              "type": "color"
-            },
-            "border": {
-              "value": "#0e0e11ff",
-              "type": "color"
-            }
-          },
-          "default": {
-            "foreground": {
-              "value": "#9194a1ff",
-              "type": "color"
-            }
-          }
-        },
         "inverse": {
           "hover": {
             "background": {
@@ -591,34 +619,6 @@
           },
           "border": {
             "value": "#b2b4bdff",
-            "type": "color"
-          },
-          "background": {
-            "value": "#ffffff00",
-            "type": "color"
-          }
-        },
-        "tertiary": {
-          "hover": {
-            "foreground": {
-              "value": "#3645abff",
-              "type": "color"
-            }
-          },
-          "disabled": {
-            "foreground": {
-              "value": "#b2b4bdff",
-              "type": "color"
-            }
-          },
-          "active": {
-            "foreground": {
-              "value": "#4963d4ff",
-              "type": "color"
-            }
-          },
-          "foreground": {
-            "value": "#29327aff",
             "type": "color"
           },
           "background": {
@@ -662,6 +662,35 @@
             "type": "color"
           }
         },
+        "foreground": {
+          "primary": {
+            "value": "#0e0e11ff",
+            "type": "color"
+          },
+          "secondary": {
+            "value": "#535665ff",
+            "type": "color",
+            "comment": "Gray 80"
+          },
+          "tertiary": {
+            "value": "#717484ff",
+            "type": "color"
+          },
+          "inverse": {
+            "value": "#fafafaff",
+            "type": "color"
+          }
+        },
+        "container": {
+          "background": {
+            "value": "#fafafaff",
+            "type": "color"
+          },
+          "separator": {
+            "value": "#d3d4d9ff",
+            "type": "color"
+          }
+        },
         "layer": {
           "premium": {
             "border": {
@@ -678,9 +707,9 @@
             }
           },
           "other": {
-            "review": {
+            "up-next": {
               "background": {
-                "value": "#fcf3c5ff",
+                "value": "#ffdcccff",
                 "type": "color"
               }
             },
@@ -691,9 +720,9 @@
                 "comment": "Background of the activity feedback page (Orange10)\n"
               }
             },
-            "up-next": {
+            "review": {
               "background": {
-                "value": "#ffdcccff",
+                "value": "#fcf3c5ff",
                 "type": "color"
               }
             }
@@ -756,35 +785,6 @@
           },
           "shadow": {
             "value": "#000000ff",
-            "type": "color"
-          }
-        },
-        "container": {
-          "background": {
-            "value": "#fafafaff",
-            "type": "color"
-          },
-          "separator": {
-            "value": "#d3d4d9ff",
-            "type": "color"
-          }
-        },
-        "foreground": {
-          "primary": {
-            "value": "#0e0e11ff",
-            "type": "color"
-          },
-          "secondary": {
-            "value": "#535665ff",
-            "type": "color",
-            "comment": "Gray 80"
-          },
-          "tertiary": {
-            "value": "#717484ff",
-            "type": "color"
-          },
-          "inverse": {
-            "value": "#fafafaff",
             "type": "color"
           }
         }
@@ -886,13 +886,22 @@
     },
     "dark": {
       "surface": {
+        "container": {
+          "background": {
+            "value": "#0e0e11ff",
+            "type": "color"
+          },
+          "separator": {
+            "value": "#2e3038ff",
+            "type": "color"
+          }
+        },
         "layer": {
           "other": {
-            "activity-feedback": {
+            "review": {
               "background": {
-                "value": "#40434fff",
-                "type": "color",
-                "comment": "Grey85 "
+                "value": "#402d07ff",
+                "type": "color"
               }
             },
             "up-next": {
@@ -901,10 +910,11 @@
                 "type": "color"
               }
             },
-            "review": {
+            "activity-feedback": {
               "background": {
-                "value": "#402d07ff",
-                "type": "color"
+                "value": "#40434fff",
+                "type": "color",
+                "comment": "Grey85 "
               }
             }
           },
@@ -983,16 +993,6 @@
             "type": "color"
           }
         },
-        "container": {
-          "background": {
-            "value": "#0e0e11ff",
-            "type": "color"
-          },
-          "separator": {
-            "value": "#2e3038ff",
-            "type": "color"
-          }
-        },
         "foreground": {
           "primary": {
             "value": "#fafafaff",
@@ -1043,6 +1043,52 @@
         }
       },
       "interactive": {
+        "tertiary": {
+          "active": {
+            "foreground": {
+              "value": "#d9eafdff",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "foreground": {
+              "value": "#7495e7ff",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "foreground": {
+              "value": "#717484ff",
+              "type": "color"
+            }
+          },
+          "foreground": {
+            "value": "#a3c2f5ff",
+            "type": "color"
+          },
+          "background": {
+            "value": "#ffffff00",
+            "type": "color"
+          }
+        },
+        "tab": {
+          "default": {
+            "foreground": {
+              "value": "#9194a1ff",
+              "type": "color"
+            }
+          },
+          "active": {
+            "border": {
+              "value": "#fafafaff",
+              "type": "color"
+            },
+            "foreground": {
+              "value": "#fafafaff",
+              "type": "color"
+            }
+          }
+        },
         "trainer": {
           "on-layer": {
             "hover": {
@@ -1155,24 +1201,6 @@
           "background": {
             "value": "#1c1d22ff",
             "type": "color"
-          }
-        },
-        "tab": {
-          "active": {
-            "border": {
-              "value": "#fafafaff",
-              "type": "color"
-            },
-            "foreground": {
-              "value": "#fafafaff",
-              "type": "color"
-            }
-          },
-          "default": {
-            "foreground": {
-              "value": "#9194a1ff",
-              "type": "color"
-            }
           }
         },
         "textfield": {
@@ -1322,34 +1350,6 @@
           },
           "border": {
             "value": "#535665ff",
-            "type": "color"
-          },
-          "background": {
-            "value": "#ffffff00",
-            "type": "color"
-          }
-        },
-        "tertiary": {
-          "hover": {
-            "foreground": {
-              "value": "#7495e7ff",
-              "type": "color"
-            }
-          },
-          "active": {
-            "foreground": {
-              "value": "#d9eafdff",
-              "type": "color"
-            }
-          },
-          "disabled": {
-            "foreground": {
-              "value": "#717484ff",
-              "type": "color"
-            }
-          },
-          "foreground": {
-            "value": "#a3c2f5ff",
             "type": "color"
           },
           "background": {
