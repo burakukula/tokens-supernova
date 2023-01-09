@@ -1798,6 +1798,36 @@
           }
         }
       }
+    },
+    "reference": {
+      "orange": {
+        "orange50": {
+          "value": "#ff7535ff",
+          "type": "color",
+          "comment": "basic reference color"
+        }
+      }
+    },
+    "semantic": {
+      "color": {
+        "brand": {
+          "default": {
+            "value": "#ff7535ff",
+            "type": "color",
+            "comment": "semantic color"
+          }
+        }
+      }
+    },
+    "button": {
+      "color": {
+        "primary": {
+          "background": {
+            "value": "#ff7535ff",
+            "type": "color"
+          }
+        }
+      }
     }
   }
 }
