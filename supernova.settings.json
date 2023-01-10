@@ -1,0 +1,15 @@
+{
+  "mode": "single-file",
+  "mapping": [
+    {
+      "supernovaBrand": "testing",
+      "supernovaTheme": null,
+      "tokenSets": ["colors"]
+    }
+  ],
+  "settings": {
+    "dryRun": false,
+    "verbose": true,
+    "preciseCopy": false
+  }
+}
